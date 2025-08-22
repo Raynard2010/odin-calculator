@@ -1,0 +1,47 @@
+button{
+    font-size: 40px;
+    width: 100%;
+    height: 100%;
+}
+
+.numBtn{
+    background-color: aliceblue;
+}
+
+.opBtn{
+    background-color: gold;
+}
+
+#container{
+    border: 5px solid black;
+    height: auto;
+    width: 600px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#displayBox{
+    border: 3px solid gray;
+    height: 75px;
+}
+
+.box{
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+#btn0{
+    width: 50%;
+}
+
+#btnEq{
+    width: 25%;
+}
+
+#btnAdd{
+    width: 25%;
+}
